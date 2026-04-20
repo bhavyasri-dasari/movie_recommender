@@ -1,0 +1,46 @@
+# -----------------------------
+# ENV FILES (VERY IMPORTANT)
+# -----------------------------
+.env
+.env.*
+
+# -----------------------------
+# NODE / REACT
+# -----------------------------
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -----------------------------
+# PYTHON (BACKEND)
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------------
+# SYSTEM FILES
+# -----------------------------
+.DS_Store
+
+# -----------------------------
+# EDITORS
+# -----------------------------
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
